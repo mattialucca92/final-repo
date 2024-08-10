@@ -203,9 +203,6 @@ body {
     width: 220px !important;
 }
 
-@media screen and (max-width: 768px) {
-  
-}
 
 .custom-section {
     border-top: 10px solid white;
@@ -311,7 +308,7 @@ body {
     padding: 20px;
 }
 
-/* #button {
+#button-home {
     background-color: var(--link-color);
     color: var(--background-color);
     border: none;
@@ -324,7 +321,7 @@ body {
     cursor: pointer;
     border-radius: 10px;
     transition: background-color 0.3s;
-} */
+}
 
 .home-button {
     padding: 10px 20px;
@@ -399,7 +396,7 @@ body {
     width: 220px;
   }
 
-  button {
+  #button-form  {
     position: relative;
     background: var(--background-color);
     color: var(--link-color);
@@ -411,7 +408,7 @@ body {
     transition: 0.2s;
   }
   
-  button:hover {
+  #button-form:hover {
     letter-spacing: 0.2rem;
     padding: 1.1rem 3.1rem;
     background: var(--background-color);
@@ -420,24 +417,24 @@ body {
     animation: box 3s infinite;
   }
   
-  button::before {
+  #button-form::before {
     content: "";
     position: absolute;
     inset: 2px;
     background: var(--background-color);
   }
   
-  button span {
+  #button-form span {
     position: relative;
     z-index: 1;
   }
-  button i {
+  #button-form i {
     position: absolute;
     inset: 0;
     display: block;
   }
   
-  button i::before {
+  #button-form i::before {
     content: "";
     position: absolute;
     width: 20px;
@@ -449,13 +446,13 @@ body {
     transition: 0.2s;
   }
   
-  button:hover i::before {
+  #button-form:hover i::before {
     width: 15px;
     left: 20%;
     animation: move 3s infinite;
   }
   
-  button i::after {
+  #button-form i::after {
     content: "";
     position: absolute;
     width: 20px;
@@ -467,7 +464,7 @@ body {
     transition: 0.2s;
   }
   
-  button:hover i::after {
+  #button-form:hover i::after {
     width: 15px;
     left: 80%;
     animation: move 3s infinite;
