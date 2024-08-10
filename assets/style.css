@@ -199,24 +199,25 @@ body {
 
 /* FORM */
 
+
 .custom-area {
     width: 220px !important;
 }
 
+.section-first {
+  border-right: 10px solid white;
+  color: var(--link-color);
+}
 
 .custom-section {
     border-top: 10px solid white;
     border-bottom: 10px solid white;
-
+    background-color: var(--background-color);
 }
 
-.form {
-    
-}
 
 .contact-form {
     background-color: var(--background-color);
-
     padding: 20px 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -225,6 +226,11 @@ body {
     align-items: center;
     justify-content: center;
     flex: 1;
+}
+
+.contact-form p {
+  color: var(--link-color);
+  font-size: 25px;
 }
 
 .contact-form .form-group {
