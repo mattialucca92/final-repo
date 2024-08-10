@@ -203,6 +203,10 @@ body {
     width: 220px !important;
 }
 
+@media screen and (max-width: 768px) {
+  
+}
+
 .custom-section {
     border-top: 10px solid white;
     border-bottom: 10px solid white;
