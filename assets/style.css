@@ -122,6 +122,33 @@ body {
     color: var(--link-hover-color);
 }
 
+.lead {
+  font-size: 2em;
+  display: inline-block;
+  letter-spacing: 0.1em;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+
+  border-right: solid 3px var(--link-color);
+
+  animation: lead 2s steps(21) 1s infinite,
+  blink 0.5s infinite steps(1) alternate;
+
+}
+
+@keyframes lead {
+    to {
+        width: 21ch;
+    }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  50% { border-color: var(--link-color) }
+  to { border-color: transparent }
+}
+
 .about-me {
     background-color: var(--background-color);
     color: var(--link-color);
