@@ -78,11 +78,24 @@ body {
 }
 
 .image {
-    width: 200px;
-    height: 400px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 0px 0px #E09F3E;
+  width: 60%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), 10px 10px 0px 0px #E09F3E;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: cover;
+  margin-bottom: 80px;
 }
+
+
+@media (max-width: 768px) {
+  .image {
+      max-width: 70%;
+      margin-left: 0;
+  }
+}
+
 
 .hero-section {
     height: 100vh;
@@ -210,9 +223,10 @@ body {
     position: relative;
 }
 
+
 .about-me-image img {
     width: 60%;
-    margin-left: 100px;
+    margin-left: 0px;
     border-radius: 10px;
     box-shadow: 10px 10px 0px 0px #E09F3E;
 }
