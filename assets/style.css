@@ -13,6 +13,24 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar-track
+{
+	border: 5px solid white;
+	background-color: var(--link-color);
+}
+
+::-webkit-scrollbar
+{
+	width: 15px;
+	background-color: #dfe6e9;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: var(--background-color);
+	border-radius: 10px;
+}
+
 .custom-hero {
   margin-top: 100px;
 }
